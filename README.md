@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Rahul Gurjar — a.k.a. `datajedi`
+# 👋 Hi, I'm Rahul Gurjar — a.k.a. `etl-kenobi`
 
 🌍 I'm a Data Engineer with 8+ years of experience in building scalable ETL pipelines, data lakes, and modern analytics platforms across Azure, Synapse, Databricks, and more.
 
