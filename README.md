@@ -1,16 +1,23 @@
-## Hi there 👋
+# 👋 Hi, I'm Rahul Gurjar — a.k.a. `datajedi`
 
-<!--
-**etl-kenobi/etl-kenobi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🌍 I'm a Data Engineer with 8+ years of experience in building scalable ETL pipelines, data lakes, and modern analytics platforms across Azure, Synapse, Databricks, and more.
 
-Here are some ideas to get you started:
+🚀 Currently seeking international opportunities in cloud-based data engineering (open to relocation to EU/UK/US).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🛠️ My Tech Stack:
+- Azure Data Factory, Synapse Analytics, Databricks
+- Python, PySpark, SQL, Delta Lake
+- Snowflake, Power BI, DBT
+- Azure DevOps, CI/CD, Git
+
+💡 Recent Projects:
+- **Banking Data Migration to Azure** (ADF + Synapse + Delta Lake)
+- **Realtime ETL Framework with ADF Mapping Data Flows**
+- **Cost-optimized data pipelines with parameterized triggers & alerting**
+
+🧠 Currently Learning:
+- Advanced Spark optimizations
+- Streaming data with Structured Streaming
+
+📫 Let's connect:
+[LinkedIn](https://www.linkedin.com/in/rahugurjar11/) | [Email](mailto:rahugurjar11@gmail.com)
