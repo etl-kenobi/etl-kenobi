@@ -1,2 +1,14 @@
-{"projects": [{"title": "Azure Banking ETL Pipeline", "description": "Migrated complex on-premise banking data to Azure using ADF, Synapse, Delta Lake, and Notebooks.", "github": "https://github.com/etl-kenobi/azure-banking-etl-pipeline", "demo": "https://raw.githubusercontent.com/etl-kenobi/azure-banking-etl-pipeline/main/docs/demo.pdf"}, {"title": "Enterprise Data Quality Framework", "description": "A reusable data quality framework using ADF and Databricks. Covers ingestion, validation, and SQL storage.", "github": "https://github.com/etl-kenobi/enterprise-data-quality-framework", "demo":"https://raw.githubusercontent.com/etl-kenobi/enterprise-data-quality-framework/main/docs/demo.pdf"
-"}]}
+[
+  {
+    "title": "Azure Banking ETL Pipeline \ud83d\ude80",
+    "description": "This project simulates a real-world banking data pipeline using Azure cloud services and open-source tools. It demonstrates an end-to-end ETL (Extract, Transform, Load) process for ingesting, transforming, and analyzing banking datasets using:\n\n- Azure Data Factory for orchestrating data pipelines\n- Azure Data Lake Storage for raw/staged/processed layers\n- Azure Databricks / PySpark for transformations\n- Azure Synapse SQL Serverless for querying data lake with SQL\n- Delta Lake format for scalable and ACID-compliant storage",
+    "repo": "https://github.com/etl-kenobi/azure-banking-etl-pipeline",
+    "demo": "https://raw.githubusercontent.com/etl-kenobi/azure-banking-etl-pipeline/main/docs/demo.pdf"
+  },
+  {
+    "title": "Azure Batch Data Quality Validation Project",
+    "description": "This project demonstrates a complete data quality validation pipeline using:\n- Azure Data Factory\n- Azure SQL\n- Azure Data Lake Storage\n- Azure Databricks (PySpark)",
+    "repo": "https://github.com/etl-kenobi/enterprise-data-quality-framework",
+    "demo": "https://raw.githubusercontent.com/etl-kenobi/enterprise-data-quality-framework/main/docs/demo.pdf"
+  }
+]
