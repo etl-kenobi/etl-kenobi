@@ -1,9 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rahul Gurjar | Data Engineering Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,17 +12,21 @@
     </header>
 
     <main>
-        <section id="about">
+        <section class="about">
             <h2>About Me</h2>
-            <p>I am an experienced Data Engineer with 8+ years of expertise in building cloud-based ETL pipelines, designing scalable data solutions, and modernizing analytics systems. Proficient in Azure Data Factory, Azure SQL, Synapse, and Databricks. Passionate about leveraging data to drive impactful business decisions.</p>
+            <p>
+                I am an experienced Data Engineer with 8+ years of expertise in building cloud-based ETL pipelines,
+                designing scalable data solutions, and modernizing analytics systems. Proficient in Azure Data Factory,
+                Azure SQL, Synapse, and Databricks. Passionate about leveraging data to drive impactful business decisions.
+            </p>
         </section>
 
-        <section id="projects">
+        <section class="projects">
             <h2>Projects</h2>
-            <div id="project-container"></div>
+            <div id="project-list"></div>
         </section>
 
-        <section id="contact">
+        <section class="contact">
             <h2>Contact</h2>
             <p>Email: rahugurjar11 [at] gmail.com</p>
             <p>GitHub: <a href="https://github.com/etl-kenobi" target="_blank">github.com/etl-kenobi</a></p>
@@ -36,22 +38,22 @@
     </footer>
 
     <script>
-        fetch('projects.json')
-            .then(response => response.json())
-            .then(data => {
-                const container = document.getElementById('project-container');
-                data.projects.forEach(project => {
-                    const card = document.createElement('div');
-                    card.className = 'card';
-                    card.innerHTML = `
-                        <h3>${project.title}</h3>
-                        <p>${project.description}</p>
-                        <p><strong>GitHub:</strong> <a href="${project.github}" target="_blank">View on GitHub</a></p>
-                        <p><strong>Live Demo PDF:</strong> <a href="${project.demo}" target="_blank">Download PDF</a></p>
-                    `;
-                    container.appendChild(card);
-                });
+        fetch("projects.json")
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById("project-list");
+            data.forEach(project => {
+                const card = document.createElement("div");
+                card.className = "card";
+                card.innerHTML = `
+                    <h3>${project.title}</h3>
+                    <p>${project.description.replace(/\n/g, "<br>")}</p>
+                    <p><strong>GitHub Repo:</strong> <a href="${project.repo}" target="_blank">View on GitHub</a></p>
+                    <p><strong>Live Demo PDF:</strong> <a href="${project.demo}" target="_blank">Download PDF</a></p>
+                `;
+                container.appendChild(card);
             });
+        });
     </script>
 </body>
 </html>
