@@ -1,60 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Rahul Gurjar | Data Engineering Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rahul Gurjar | Data Engineering Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+  <header>
+    <div class="header-top">
+      <div class="brand">
         <h1>Rahul Gurjar</h1>
-        <p>Azure Data Engineer | ETL Developer | Cloud Enthusiast</p>
-    </header>
+        <p>Azure Data Engineer · ETL Developer · Cloud Enthusiast</p>
+      </div>
+      <nav class="header-actions">
+        <a class="btn" href="RahulGurjar_Resume_With_Portfolio.pdf" target="_blank" rel="noopener">Download Resume</a>
+        <a class="btn outline" href="mailto:rahugurjar11@gmail.com">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section class="about">
-            <h2>About Me</h2>
-            <p>
-                I am an experienced Data Engineer with 8+ years of expertise in building cloud-based ETL pipelines,
-                designing scalable data solutions, and modernizing analytics systems. Proficient in Azure Data Factory,
-                Azure SQL, Synapse, and Databricks. Passionate about leveraging data to drive impactful business decisions.
-            </p>
-        </section>
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        Experienced Data Engineer (8+ years) building cloud-based ETL pipelines and modern analytics on Azure.
+        Hands-on with Azure Data Factory, Databricks (PySpark), Synapse, Azure SQL, and Delta Lake.
+      </p>
+    </section>
 
-        <section class="projects">
-            <h2>Projects</h2>
-            <div id="project-list"></div>
-        </section>
+    <section class="projects">
+      <h2>Portfolio Projects</h2>
+      <div id="project-list" class="grid"></div>
+    </section>
 
-        <section class="contact">
-            <h2>Contact</h2>
-            <p>Email: rahugurjar11 [at] gmail.com</p>
-            <p>GitHub: <a href="https://github.com/etl-kenobi" target="_blank">github.com/etl-kenobi</a></p>
-        </section>
-    </main>
+    <section class="clients">
+      <h2>Real-World Engagements</h2>
+      <div id="clients-list" class="stack"></div>
+    </section>
 
-    <footer>
-        <small class="build">Build: 2025-08-08 07:48:49 IST</small><br>
-        <p>&copy; 2025 Rahul Gurjar</p>
-    </footer>
+    <section class="certs">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li>
+          <strong>Microsoft Azure Data Engineering Associate (DP-203)</strong>
+          — <a href="https://learn.microsoft.com/en-us/users/rahulgurjar-4590/credentials/27c988391be5335e?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener">Verify</a>
+        </li>
+        <li>
+          <strong>Microsoft Azure Data Fundamentals (DP-900)</strong>
+          — <a href="https://learn.microsoft.com/en-us/users/RahulGurjar-4590/credentials/CCF0471E3D8430D?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener">Verify</a>
+        </li>
+      </ul>
+    </section>
 
-    <script>
-        fetch("projects.json")
-        .then(response => response.json())
-        .then(data => {
-            const container = document.getElementById("project-list");
-            data.forEach(project => {
-                const card = document.createElement("div");
-                card.className = "card";
-                card.innerHTML = `
-                    <h3>${project.title}</h3>
-                    <p>${project.description.replace(/\n/g, "<br>")}</p>
-                    <p><strong>GitHub Repo:</strong> <a href="${project.repo}" target="_blank">View on GitHub</a></p>
-                    <p><strong>Live Demo PDF:</strong> <a href="${project.demo}" target="_blank">Download PDF</a></p>
-                `;
-                container.appendChild(card);
-            });
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:rahugurjar11@gmail.com">rahugurjar11@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/etl-kenobi" target="_blank" rel="noopener">github.com/etl-kenobi</a></p>
+      <p>Website: <a href="https://rahulgurjar.cloud" target="_blank" rel="noopener">rahulgurjar.cloud</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/rahugurjar11" target="_blank" rel="noopener">linkedin.com/in/rahugurjar11</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <small class="build">Build: 2025-08-08 08:08:35 IST</small><br>
+    <p>&copy; 2025 Rahul Gurjar</p>
+  </footer>
+
+  <script>
+    // Load portfolio projects
+    fetch("projects.json")
+      .then(r => r.json())
+      .then(data => {
+        const container = document.getElementById("project-list");
+        data.forEach(project => {
+          const card = document.createElement("div");
+          card.className = "card";
+          card.innerHTML = `
+            <h3>${project.title}</h3>
+            <p>${project.description.replace(/\n/g, "<br>")}</p>
+            <p><strong>GitHub Repo:</strong> <a href="${project.repo}" target="_blank" rel="noopener">View on GitHub</a></p>
+            <p><strong>Live Demo PDF:</strong> <a href="${project.demo}" target="_blank" rel="noopener">Download PDF</a></p>
+          `;
+          container.appendChild(card);
         });
-    </script>
+      });
+
+    // Load real-world engagements
+    fetch("clients.json")
+      .then(r => r.json())
+      .then(data => {
+        const container = document.getElementById("clients-list");
+        data.forEach(item => {
+          const card = document.createElement("div");
+          card.className = "card";
+          card.innerHTML = `
+            <div class="client-head">
+              ${item.logo ? `<img class="logo" src="${item.logo}" alt="${item.client} logo">` : ""}
+              <div class="client-title">
+                <h3>${item.client} — ${item.project}</h3>
+                <p class="meta">${item.role} · ${item.timeline}${item.location ? " · " + item.location : ""}</p>
+              </div>
+            </div>
+            <p>${item.description}</p>
+          `;
+          container.appendChild(card);
+        });
+      });
+  </script>
 </body>
 </html>
