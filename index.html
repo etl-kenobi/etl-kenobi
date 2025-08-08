@@ -95,12 +95,9 @@
           const card = document.createElement("div");
           card.className = "card";
           card.innerHTML = `
-            <div class="client-head">
-              ${item.logo ? `<img class="logo" src="${item.logo}" alt="${item.client} logo">` : ""}
-              <div class="client-title">
-                <h3>${item.client} — ${item.project}</h3>
-                <p class="meta">${item.role} · ${item.timeline}${item.location ? " · " + item.location : ""}</p>
-              </div>
+            <div class="client-title">
+              <h3>${item.logo ? `<img class="logo-inline" src="${item.logo}" alt="${item.client} logo">` : ""} ${item.client} — ${item.project}</h3>
+              <p class="meta">${item.role} · ${item.timeline}${item.location ? " · " + item.location : ""}</p>
             </div>
             <p>${item.description}</p>
           `;
