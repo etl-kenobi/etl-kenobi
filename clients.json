@@ -1,0 +1,47 @@
+[
+    {
+        "client": "@Teamified",
+        "project": "Kolmeo – Property Management Business",
+        "role": "Cloud Data Migration & On‑premise ETL",
+        "timeline": "06/2024 – Present",
+        "location": "",
+        "description": "Kolmeo is an end‑to‑end property management platform for agencies, owners and tenants. Led cloud migration of legacy systems to Azure, built parameterized ADF pipelines and Databricks/Synapse transformations, and streamlined payment data flows end‑to‑end.",
+        "logo": "images/kolmeo.png"
+    },
+    {
+        "client": "@TCS",
+        "project": "Rabobank – Global Financial System (On‑prem) & Global Data Platform (Azure)",
+        "role": "Rabo Financial Risk & Analysis",
+        "timeline": "05/2022 – 05/2024",
+        "location": "Utrecht, NL",
+        "description": "Worked across millions of datasets powering Finance Risk operations. Designed and optimized Azure‑based ingestion and transformation pipelines (ADF, ADLS, Synapse), ensuring compliance, quality and high availability for mission‑critical risk analytics.",
+        "logo": "images/rabobank.png"
+    },
+    {
+        "client": "@Stratacent India Pvt Ltd",
+        "project": "Invesco – Salespage Application (CRM/Marketing)",
+        "role": "ETL Development & Production Support",
+        "timeline": "01/2020 – 10/2021",
+        "location": "Denver, USA",
+        "description": "Stock‑market sales reporting platform. Monitored Autosys schedules, developed and enhanced Informatica PowerCenter mappings, and improved pipeline performance to support sales operations.",
+        "logo": ""
+    },
+    {
+        "client": "@Conduent Business Services",
+        "project": "RKS – Record Keeping System (US Healthcare)",
+        "role": "ETL Developer",
+        "timeline": "03/2018 – 12/2019",
+        "location": "",
+        "description": "Central repository for client healthcare plans (dental, vision, etc.). Built ETL for eligibility checks, enrollment and payroll deductions; ensured accuracy, compliance and reliable downstream processing.",
+        "logo": "images/conduent.png"
+    },
+    {
+        "client": "@IBM (Flatworld, on contract)",
+        "project": "EIS – Executive Information System (Bharti Airtel)",
+        "role": "DataStage Developer / Ops",
+        "timeline": "08/2016 – 03/2018",
+        "location": "",
+        "description": "Executive reporting system delivering finance KPIs to top management. Managed DataStage jobs, maintained 99.9% uptime, and tuned performance for large‑scale telecom datasets.",
+        "logo": "images/airtel.png"
+    }
+]
