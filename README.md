@@ -1,23 +1,24 @@
 # 👋 Hi, I'm Rahul Gurjar — *etl-kenobi*  
 
-**Senior Data Engineer** | **Azure Cloud Specialist** | **ETL Solutions Architect**  
+**Senior Azure Data Engineer** | **Microsoft Fabric** | **Databricks** | **Lakehouse & AI-Ready Data Platforms**  
 
-🌍 **8+ years** designing, building, and optimizing scalable **ETL pipelines**, **data lakes**, and **modern analytics platforms** — across **Azure Data Factory**, **Synapse Analytics**, **Databricks**, and more.  
+🌍 **9+ years** designing, building, and optimizing scalable **ETL/ELT pipelines**, **lakehouse platforms**, **semantic models**, and **modern analytics solutions** across **Azure Data Factory**, **Microsoft Fabric**, **Databricks**, **Synapse Analytics**, **PySpark**, **SQL**, and **Delta Lake**.  
 
-💼 **Currently seeking international opportunities** in **cloud-based data engineering** — open to relocation to **EU / UK / US**.  
+💼 **Currently seeking international opportunities** in **Azure Data Engineering / Microsoft Fabric / Lakehouse Engineering** — open to relocation to **Europe / UK / Canada / similar visa-sponsored markets**.  
 
 ---
 
 ## 🛠 Tech Stack
-- **Cloud & Data Platforms:** Azure Data Factory, Azure Synapse, Azure Databricks, Snowflake  
+- **Cloud & Data Platforms:** Azure Data Factory, Microsoft Fabric, OneLake, Azure Synapse, Azure Databricks, Snowflake  
 - **Programming & Data Processing:** Python, PySpark, SQL, Delta Lake  
 - **Data Visualization:** Power BI  
 - **Orchestration & DevOps:** Azure DevOps, CI/CD, Git  
-- **Data Modeling & Transformation:** DBT, Data Warehouse concepts  
+- **Data Modeling & Transformation:** Lakehouse, Medallion Architecture, Semantic Models, Data Warehousing, DBT concepts  
 
 ---
 
 ## 🚀 Highlight Projects
+- **[Fabric AI Claims Intelligence Platform](https://github.com/etl-kenobi/fabric-ai-claims-intelligence-platform)** – In-progress AI-enabled insurance claims lakehouse using Microsoft Fabric-style medallion architecture, PIT valuation logic, data quality checks, semantic model-ready views, and AI-ready claim narratives for search and Q&A patterns.  
 - **[Azure Banking ETL Pipeline](https://github.com/etl-kenobi/azure-banking-etl-pipeline)** – End-to-end migration of banking datasets to Azure with **ADF**, **Delta Lake**, and **Synapse**.  
 - **[Enterprise Data Quality Framework](https://github.com/etl-kenobi/enterprise-data-quality-framework)** – Reusable data validation framework with **ADF** ingestion & **PySpark** checks in Databricks.  
 - **Streaming ETL with EventHub** – Real-time ingestion and analytics using **Azure Event Hubs**, **Structured Streaming**, and **Delta Lake**.  
@@ -31,8 +32,10 @@
 ---
 
 ## 🧠 Currently Exploring
+- Microsoft **Fabric Lakehouse** and **OneLake** architecture patterns  
+- **AI-ready data platforms**, claim narratives, semantic search and RAG-style analytics  
 - Advanced **Spark** optimization techniques  
-- **Streaming data** architectures with Structured Streaming & Delta Live Tables  
+- **Streaming / CDC** data architectures with Structured Streaming, Delta Lake and dispatcher-style orchestration  
 
 ---
 

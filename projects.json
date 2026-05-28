@@ -1,6 +1,12 @@
 [
     {
-        "title": "Azure Banking ETL Pipeline \ud83d\ude80",
+        "title": "Fabric AI Claims Intelligence Platform",
+        "description": "An in-progress portfolio project demonstrating an AI-enabled insurance claims lakehouse using Microsoft Fabric-style Medallion architecture, PySpark, Delta Lake, data quality validation, point-in-time claim valuation, semantic model-ready views, and AI-powered claim summarization, semantic search, and natural language Q&A patterns.\n- Designed Bronze, Silver and Gold Lakehouse layers for synthetic insurance claims data\n- Implemented PIT valuation concepts for paid, reserve, incurred and claim status analysis\n- Added AI-ready claim narratives for downstream Copilot, RAG, semantic search and natural language analytics use cases",
+        "repo": "https://github.com/etl-kenobi/fabric-ai-claims-intelligence-platform",
+        "demo": "https://github.com/etl-kenobi/fabric-ai-claims-intelligence-platform"
+    },
+    {
+        "title": "Azure Banking ETL Pipeline 🚀",
         "description": "This project simulates a real-world banking data pipeline using Azure cloud services and open-source tools. It demonstrates an end-to-end ETL (Extract, Transform, Load) process for ingesting, transforming, and analyzing banking datasets using:\n- Azure Data Factory for orchestrating data pipelines\n- Azure Data Lake Storage for raw/staged/processed layers\n- Azure Databricks / PySpark for transformations\n- Azure Synapse SQL Serverless for querying data lake with SQL\n- Delta Lake format for scalable and ACID-compliant storage",
         "repo": "https://github.com/etl-kenobi/azure-banking-etl-pipeline",
         "demo": "https://raw.githubusercontent.com/etl-kenobi/azure-banking-etl-pipeline/main/docs/demo.pdf"

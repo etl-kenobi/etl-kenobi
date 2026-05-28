@@ -1,9 +1,18 @@
 [
     {
+        "client": "@Insurance Client",
+        "project": "Point-in-Time Claims Reporting Platform",
+        "role": "Senior Azure Data Engineer / Microsoft Fabric",
+        "timeline": "01/2026 – Present",
+        "location": "Remote / India",
+        "description": "Current real-world engagement focused on a Microsoft Fabric-based insurance reporting platform for claims analytics, point-in-time reporting and enterprise semantic model design. Working across Lakehouse layers, Salesforce-style claims data transformations, valuation-date based reporting, data quality validation, PIT snapshot logic and reporting-ready Gold layer structures for insurance financial analysis.",
+        "logo": "images/RK.png"
+    },
+    {
         "client": "@Teamified",
         "project": "Kolmeo – Property Management Business",
         "role": "Cloud Data Migration & On‑premise ETL",
-        "timeline": "06/2024 – Present",
+        "timeline": "06/2024 – 03/2025",
         "location": "",
         "description": "Kolmeo is an end‑to‑end property management platform for agencies, owners and tenants. Led cloud migration of legacy systems to Azure, built parameterized ADF pipelines and Databricks/Synapse transformations, and streamlined payment data flows end‑to‑end.",
         "logo": "images/kolmeo.png"
