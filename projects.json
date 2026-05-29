@@ -3,7 +3,7 @@
         "title": "Fabric AI Claims Intelligence Platform",
         "description": "An in-progress portfolio project demonstrating an AI-enabled insurance claims lakehouse using Microsoft Fabric-style Medallion architecture, PySpark, Delta Lake, data quality validation, point-in-time claim valuation, semantic model-ready views, and AI-powered claim summarization, semantic search, and natural language Q&A patterns.\n- Designed Bronze, Silver and Gold Lakehouse layers for synthetic insurance claims data\n- Implemented PIT valuation concepts for paid, reserve, incurred and claim status analysis\n- Added AI-ready claim narratives for downstream Copilot, RAG, semantic search and natural language analytics use cases",
         "repo": "https://github.com/etl-kenobi/fabric-ai-claims-intelligence-platform",
-        "demo": "https://github.com/etl-kenobi/fabric-ai-claims-intelligence-platform"
+        "demo": "https://github.com/etl-kenobi/fabric-ai-claims-intelligence-platform/blob/main/docs/local_qa_agent_demo.md"
     },
     {
         "title": "Azure Banking ETL Pipeline 🚀",
